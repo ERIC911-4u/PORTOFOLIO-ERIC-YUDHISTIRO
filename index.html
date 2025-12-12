@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ERIC PUTRA YUDHISTIRO — Portfolio</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+
+  <!-- Style -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header class="nav">
+    <div class="container nav__wrap">
+      <a class="brand" href="#home">ERIC PUTRA YUDHISTIRO<span>•</span></a>
+
+      <nav class="nav__links">
+        <a href="#about">About</a>
+        <a href="#projects">Project</a>
+        <a href="#contact" class="btn btn--sm">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="container hero__grid">
+
+      <div class="hero__text">
+        <img src="WhatsApp Image 2025-11-11 at 13.42.57.jpeg" class="profile-img" alt="Profil">
+
+        <p class="eyebrow">Programmer</p>
+        <h1>Hello, I'm <span class="accent">ERIC</span></h1>
+
+        <p class="lead">
+          Halo! Saya seorang Programmer yang fokus di Web Development dan pembuatan aplikasi. 
+          Saya juga menguasai dasar-dasar Microsoft Excel dan selalu bersemangat mempelajari teknologi baru.
+        </p>
+
+        <div class="actions">
+          <a class="btn" href="#projects">Project</a>
+          <a class="btn btn--ghost" href="#contact">Contact</a>
+        </div>
+      </div>
+
+      <div class="hero__image">
+        <img src="Screenshot 2025-11-11 211903.png" alt="Workspace">
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section section--alt">
+    <div class="container grid-2">
+
+      <div>
+        <h2>About me</h2>
+        <p>
+          Saya seorang Junior Programmer yang gemar membuat website modern. 
+          Saya juga mulai merintis bisnis digital.
+        </p>
+
+        <p>⚙️ <b>Keahlian Saya</b></p>
+        <ul>
+          <li>HTML, CSS, JavaScript, Python</li>
+          <li>Desain Responsive</li>
+          <li>PHP / MySQL Dasar</li>
+          <li>Excel (Rumus, Pivot Table, Dashboard)</li>
+          <li>Problem Solving & Public Speaking</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Info Singkat</h3>
+        <ul class="list">
+          <li><strong>Lokasi:</strong> Tangerang Selatan</li>
+          <li><strong>Fokus:</strong> UI/UX, Frontend</li>
+          <li><strong>Email:</strong> <a href="mailto:eindo090@gmail.com">eindo090@gmail.com</a></li>
+          <li><strong>GitHub:</strong> ERIC911-4u</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="container">
+
+      <div class="section__head">
+        <h2>Selected Project</h2>
+        <p class="muted">Three main projects</p>
+      </div>
+
+      <div class="cards three">
+
+        <article class="project">
+          <img class="project__img" src="WhatsApp Image 2025-11-12 at 21.49.36.jpeg" alt="CSS Design">
+          <div class="project__body">
+            <h3>Design CSS</h3>
+            <p>Create an E-commerce website.</p>
+            <div class="tags">
+              <span>HTML</span><span>CSS</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project">
+          <img class="project__img" src="Screenshot 2025-12-12 081935.png" alt="Analytics">
+          <div class="project__body">
+            <h3>Login Tokopedia E-commers</h3>
+            <p>Login design.</p>
+            <div class="tags">
+              <span>CSS</span><span>HTML</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project">
+          <img class="project__img" src="WhatsApp Image 2025-11-12 at 21.40.50.jpeg" alt="Python Project">
+          <div class="project__body">
+            <h3>Python</h3>
+            <p>Create and develop Python projects.</p>
+            <div class="tags">
+              <span>Java</span><span>NetBeans</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section section--alt">
+    <div class="container center">
+      <h2>Contact</h2>
+      <p class="muted">Ingin berkolaborasi? Kirim email ya! 😊</p>
+      <a class="btn" href="mailto:eindo090@gmail.com">Email</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container foot__wrap">
+      <small>© <span id="year"></span> ERIC PUTRA YUDHISTIRO</small>
+      <a href="#home" class="link">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
